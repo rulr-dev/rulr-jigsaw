@@ -1,7 +1,7 @@
 <section class="bg-white px-4 md:px-8 xl:px-0 py-16 md:py-24">
     <div class="max-w-7xl mx-auto">
         <strong class="text-black block text-sm lg:text-lg">( Our Insights )</strong>
-        <h2 class="text-xl md:text-2xl lg:text-3xl font-bold md:mt-2">Blog</h2>
+        <h2 class="font-poppins text-xl md:text-2xl lg:text-3xl font-bold md:mt-2">Blog</h2>
         <hr class="border-gray-300 my-4" />
 
         <div class="space-y-6">
