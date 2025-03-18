@@ -1,187 +1,140 @@
 /* Your custom blog styles here */
 /* blog.css */
 .blog-article {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
+    @apply font-instrument max-w-3xl mx-auto p-5 text-neutral-600;
 }
 
 /* Headings */
 .blog-article h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-    color: #222;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 0.2em;
+    @apply font-poppins font-bold text-4xl text-neutral-950 mb-4;
 }
 
 .blog-article h2 {
-    font-size: 2em;
-    margin: 1em 0 0.5em;
-    color: #333;
+    @apply font-poppins font-medium text-3xl mt-7 mb-5 text-neutral-950;
 }
 
 .blog-article h3 {
-    font-size: 1.5em;
-    margin: 1em 0 0.5em;
-    color: #444;
+    @apply font-poppins text-2xl text-neutral-950 mt-4 mb-2;
 }
 
 .blog-article h4,
 .blog-article h5,
 .blog-article h6 {
-    font-size: 1.2em;
-    margin: 1em 0 0.5em;
-    color: #555;
+    @apply font-poppins text-xl text-neutral-950 mt-4 mb-2;
 }
 
 /* Paragraphs */
 .blog-article p {
-    margin: 0 0 1.5em;
-    font-size: 1.1em;
+    @apply font-instrument font-normal text-lg mb-6 text-neutral-600;
 }
 
 /* Links */
 .blog-article a {
-    color: #007bff;
-    text-decoration: none;
+    @apply font-instrument font-normal text-lg text-sky-500 no-underline;
     transition: color 0.2s ease;
 }
 
 .blog-article a:hover {
-    color: #0056b3;
-    text-decoration: underline;
+    @apply text-sky-800 underline;
 }
 
 /* Lists */
 .blog-article ul,
 .blog-article ol {
-    margin: 0 0 1.5em 2em;
-    padding: 0;
+    @apply p-0 mb-6 ml-8 ;
 }
 
 .blog-article li {
-    margin-bottom: 0.5em;
+    @apply font-instrument font-normal mb-2 text-lg text-neutral-600;
 }
 
 .blog-article ul {
-    list-style-type: disc;
+    @apply list-disc;
 }
 
 .blog-article ol {
-    list-style-type: decimal;
+    @apply list-decimal;
 }
 
 /* Blockquotes */
 .blog-article blockquote {
-    margin: 1.5em 0;
-    padding: 1em 1.5em;
-    background-color: #f5f5f5;
-    border-left: 5px solid #007bff;
-    color: #555;
-    font-style: italic;
+    @apply font-instrument font-normal my-6 text-neutral-600 bg-neutral-100 py-4 px-6 italic border-l-4 border-neutral-950/10;
 }
 
 .blog-article blockquote p {
-    margin: 0;
+    @apply font-instrument m-0;
 }
 
 /* Code and Preformatted Text */
 .blog-article code {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #f1f1f1;
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
-    font-size: 0.9em;
+    @apply bg-zinc-100 rounded text-sm py-1 px-2;
 }
 
 .blog-article pre {
-    background-color: #f1f1f1;
-    padding: 1em;
-    border-radius: 5px;
-    overflow-x: auto;
+    @apply bg-zinc-100 p-4 my-6 rounded-md text-sm overflow-x-auto;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 0.9em;
-    line-height: 1.4;
-    margin: 1.5em 0;
 }
 
 .blog-article pre code {
-    background-color: transparent;
-    padding: 0;
+    @apply p-0 bg-transparent;
 }
 
 /* Images */
 .blog-article img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1.5em auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    @apply block rounded-lg my-6 max-w-full h-auto;
 }
 
 /* Tables */
 .blog-article table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.5em 0;
+    @apply w-full my-8 border-collapse;
 }
 
 .blog-article th,
 .blog-article td {
-    padding: 0.8em;
-    border: 1px solid #ddd;
-    text-align: left;
+    @apply font-instrument text-lg text-left text-neutral-600 p-3.5 border border-neutral-950/10;
 }
 
 .blog-article th {
-    background-color: #f5f5f5;
-    font-weight: bold;
+    @apply bg-neutral-100 font-bold;
 }
 
 .blog-article tr:nth-child(even) {
-    background-color: #fafafa;
+    @apply bg-zinc-50;
 }
 
 /* Horizontal Rule */
 .blog-article hr {
-    border: none;
-    border-top: 1px solid #eee;
-    margin: 2em 0;
+    @apply my-8 border-0 border-t border-neutral-950/10;
 }
 
 /* Responsive Design */
 @media (max-width: 600px) {
     .blog-article {
-        padding: 15px;
+        @apply p-4;
     }
 
     .blog-article h1 {
-        font-size: 2em;
+        @apply text-3xl;
     }
 
     .blog-article h2 {
-        font-size: 1.6em;
+        @apply text-2xl;
     }
 
     .blog-article h3 {
-        font-size: 1.3em;
+        @apply text-xl;
     }
 
     .blog-article p {
-        font-size: 1em;
+        @apply text-base;
     }
 
     .blog-article blockquote {
-        padding: 0.8em 1em;
+        @apply py-2 px-4;
     }
 
     .blog-article pre {
-        font-size: 0.85em;
+        @apply text-sm;
     }
 }
