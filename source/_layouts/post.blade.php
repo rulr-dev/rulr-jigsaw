@@ -6,7 +6,7 @@
 
 @section('body')
     <section class="px-4 lg:px-8 xl:px-4 py-16 md:py-24 mt-4 md:mt-12">
-        <div class="max-w-7xl mx-auto">
+        <div class="blog-article max-w-7xl mx-auto">
             <h1 class="font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-semibold tracking-tight text-balance text-gray-900">Blog Details</h1>
             <hr class="border-b my-6">
             <div class="lg:grid lg:grid-cols-3 lg:space-x-6 xl:space-x-12 items-start ">

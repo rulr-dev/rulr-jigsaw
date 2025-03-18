@@ -1,1 +1,187 @@
 /* Your custom blog styles here */
+/* blog.css */
+.blog-article {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Headings */
+.blog-article h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #222;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.2em;
+}
+
+.blog-article h2 {
+    font-size: 2em;
+    margin: 1em 0 0.5em;
+    color: #333;
+}
+
+.blog-article h3 {
+    font-size: 1.5em;
+    margin: 1em 0 0.5em;
+    color: #444;
+}
+
+.blog-article h4,
+.blog-article h5,
+.blog-article h6 {
+    font-size: 1.2em;
+    margin: 1em 0 0.5em;
+    color: #555;
+}
+
+/* Paragraphs */
+.blog-article p {
+    margin: 0 0 1.5em;
+    font-size: 1.1em;
+}
+
+/* Links */
+.blog-article a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.blog-article a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Lists */
+.blog-article ul,
+.blog-article ol {
+    margin: 0 0 1.5em 2em;
+    padding: 0;
+}
+
+.blog-article li {
+    margin-bottom: 0.5em;
+}
+
+.blog-article ul {
+    list-style-type: disc;
+}
+
+.blog-article ol {
+    list-style-type: decimal;
+}
+
+/* Blockquotes */
+.blog-article blockquote {
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    background-color: #f5f5f5;
+    border-left: 5px solid #007bff;
+    color: #555;
+    font-style: italic;
+}
+
+.blog-article blockquote p {
+    margin: 0;
+}
+
+/* Code and Preformatted Text */
+.blog-article code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f1f1f1;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.blog-article pre {
+    background-color: #f1f1f1;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin: 1.5em 0;
+}
+
+.blog-article pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+/* Images */
+.blog-article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+.blog-article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+}
+
+.blog-article th,
+.blog-article td {
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.blog-article th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.blog-article tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Horizontal Rule */
+.blog-article hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 2em 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .blog-article {
+        padding: 15px;
+    }
+
+    .blog-article h1 {
+        font-size: 2em;
+    }
+
+    .blog-article h2 {
+        font-size: 1.6em;
+    }
+
+    .blog-article h3 {
+        font-size: 1.3em;
+    }
+
+    .blog-article p {
+        font-size: 1em;
+    }
+
+    .blog-article blockquote {
+        padding: 0.8em 1em;
+    }
+
+    .blog-article pre {
+        font-size: 0.85em;
+    }
+}
