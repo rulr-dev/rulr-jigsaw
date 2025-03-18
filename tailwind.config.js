@@ -11,4 +11,12 @@ module.exports = {
     options: {
         safelist: [/language/, /hljs/, /mce/],
     },
+    theme: {
+        extend: {
+            fontFamily: {
+                instrument: ["Instrument Sans", "sans-serif"],
+                poppins: ["Poppins", "sans-serif"],
+            },
+        },
+    },
 };
