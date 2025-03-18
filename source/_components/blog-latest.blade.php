@@ -8,8 +8,8 @@
             @foreach ($posts->where('featured', false)->take(6) as $post)
             <div class="border-b pb-4 group cursor-pointer">
                 <div class="lg:flex gap-4 lg:gap-12 justify-between max-w-full">
-                    <div class="flex-1 flex gap-4 lg:gap-12">
-                        <span class="block text-gray-400 text-lg mt-1 mb-2 md:mb-0">{{ $post->getDate()->format('F j, Y') }}</span>
+                    <div class="flex-1 flex gap-4 lg:gap-12 ">
+                        <span class="block text-gray-400 text-lg mt-1 mb-2 md:mb-0 min-w-44">{{ $post->getDate()->format('F j, Y') }}</span>
 
                         <a href="{{ $post->getUrl() }}" title="Read {{ $post->title }}" class="text-gray-900 font-extrabold">
                             <p class="font-semibold text-xl lg:text-2xl mt-1 lg:max-w-lg">{{ $post->title }}</p>

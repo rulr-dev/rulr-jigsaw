@@ -40,14 +40,14 @@
 
        <footer class="bg-gradient-to-r from-slate-900 via-neutral-950 to-slate-900 rounded-t-3xl p-6  -mt-8">
            <div class="mx-auto max-w-6xl px-4 py-6 md:py-12 text-center md:text-start">
-               <strong class="block font-poppins font-normal py-4 md:py-8 lg:pb-20 text-xl md:text-2xl lg:text-5xl xl:text-7xl text-white">
+               <strong class="block font-poppins font-normal py-4 md:py-8 text-xl md:text-2xl lg:text-5xl xl:text-7xl text-white">
                    Sounds like a fit? <br />
                    Let’s connect!
                </strong>
                <a href="#" class="inline-block rounded-2xl bg-sky-500 px-8 md:px-12 py-6 md:py-8 text-xl font-instrument font-semibold text-white shadow-xs hover:bg-sky-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
                    Book a free consultation
                </a>
-               <div class="md:flex md:items-center md:justify-between border-y border-white/10 py-6 md:py-12 mt-4 md:mt-12">
+               <div class="md:flex md:items-center md:justify-between border-y border-white/10 py-6 md:py-12 mt-4 md:mt-16">
                    <div>
                        <a href="#" class="text-2xl md:text-4xl font-bold relative text-white inline-block mb-1 md:mb-4">
                            rulr
