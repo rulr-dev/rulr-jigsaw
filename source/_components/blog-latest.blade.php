@@ -15,7 +15,7 @@
                             <p class="font-semibold text-xl lg:text-2xl mt-1 lg:max-w-lg">{{ $post->title }}</p>
                         </a>
                     </div>
-                    <div class="sm:w-48 md:h-0 overflow-hidden transition-all duration-500 ease-in-out md:group-hover:h-32 md:ml-4">
+                    <div class="max-h-80 md:max-h-none sm:w-48 md:h-0 overflow-hidden transition-all duration-500 ease-in-out md:group-hover:h-32 md:ml-4">
                         @if ($post->cover_image)
                             <img src="{{ $post->cover_image }}" alt="{{ $post->title }}" class="w-full h-full object-cover rounded-md" />
                         @endif

@@ -31,7 +31,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
-    <body class="font-instrument flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal">
+    <body class="font-instrument flex flex-col justify-between min-h-screen bg-secondary text-gray-800 leading-normal">
        @include('_nav.header')
 
         <main role="main">
@@ -40,7 +40,7 @@
 
        <footer class="bg-gradient-to-r from-slate-900 via-neutral-950 to-slate-900 rounded-t-3xl p-6  -mt-8">
            <div class="mx-auto max-w-6xl px-4 py-6 md:py-12 text-center md:text-start">
-               <strong class="block font-poppins font-normal py-4 md:py-8 text-xl md:text-2xl lg:text-5xl xl:text-7xl text-white">
+               <strong class="block font-poppins font-normal py-4 md:py-8 text-xl md:text-2xl lg:text-5xl xl:text-7xl text-secondary">
                    Sounds like a fit? <br />
                    Let’s connect!
                </strong>
@@ -55,11 +55,11 @@
                        </a>
                    </div>
                    <div class="mt-2 md:mt-0 mb-8 md:mb-0 max-w-lg">
-                       <p class="text-center text-sm leading-5 text-white/70">We place great emphasis on providing designers, artists, and brands with templates that elevates their visual communication.</p>
+                       <p class="text-center text-sm leading-5 text-secondary">We place great emphasis on providing designers, artists, and brands with templates that elevates their visual communication.</p>
                    </div>
                    <div class="flex justify-center space-x-4 md:space-x-6 md:order-2">
                        <a class="h-8 w-8 inline-flex items-center justify-center transition-all duration-700 group" href="https://www.facebook.com/profile.php?id=61559932386928" target="_blank">
-                           <svg class="fill-white w-5 group-hover:fill-sky-500" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                           <svg class="fill-secondary w-5 group-hover:fill-sky-500" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                <g id="SVGRepo_iconCarrier">
@@ -74,7 +74,7 @@
                            </svg> -->
                        </a>
                        <a class="h-8 w-8 inline-flex items-center justify-center transition-all duration-700 group" href="https://www.linkedin.com/feed/" target="_blank">
-                           <svg class="fill-white w-5 group-hover:fill-sky-500" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                           <svg class="fill-secondary w-5 group-hover:fill-sky-500" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                <g id="SVGRepo_iconCarrier">
@@ -86,7 +86,7 @@
                            </svg>
                        </a>
                        <a class="h-8 w-8 inline-flex items-center justify-center transition-all duration-700 group" href="https://x.com/RulrDev" target="_blank">
-                           <svg class="fill-white w-6 group-hover:fill-sky-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 33.88 33.88" xml:space="preserve">
+                           <svg class="fill-secondary w-6 group-hover:fill-sky-500" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 33.88 33.88" xml:space="preserve">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                    <g id="SVGRepo_iconCarrier">
@@ -100,7 +100,7 @@
                    </div>
                </div>
                <div class="mt-4 md:mt-8">
-                   <p class="text-sm leading-5 text-white/70">2024 &copy; Rulr. All rights reserved.</p>
+                   <p class="text-sm leading-5 text-secondary">2024 &copy; Rulr. All rights reserved.</p>
                </div>
            </div>
        </footer>

@@ -93,7 +93,7 @@
                         <span class="text-sm text-red-500">Error message</span>
 
                         <div class="relative w-full mt-2 lg:mt-4">
-                            <label class="text-base font-medium block mb-1 text-zinc-950" for="price">Budget</label>
+                            <label class="text-base font-medium block mb-1 text-zinc-950" for="budget">Budget</label>
                             <select id="budget" name="budget" class="block w-full bg-white rounded-md border-0 py-3 pl-3 pr-10 text-zinc-950 ring-1 ring-inset ring-gray-200 focus:ring-1 focus:border-gray-200 sm:text-sm sm:leading-6">
                                 <option>up to $5.000</option>
                                 <option>$5.000 - $50.000</option>

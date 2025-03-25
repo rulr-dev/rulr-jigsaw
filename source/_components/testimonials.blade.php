@@ -1,4 +1,4 @@
-<section class="px-4 md:px-8 xl:px-0 py-8 sm:py-16 md:py-24 bg-gradient-to-r from-zinc-100 via-gray-100 to-zinc-200">
+<section class="px-4 md:px-8 xl:px-0 py-8 sm:py-16 md:py-24 bg-secondary">
     <div class="max-w-7xl mx-auto" x-data="testimonialSlider()">
         <strong class="text-black block text-sm lg:text-lg">( Our Testimonials )</strong>
         <h2 class="font-poppins text-xl md:text-2xl lg:text-3xl font-bold md:mt-2">Voices of Our Clients</h2>

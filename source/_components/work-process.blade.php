@@ -1,4 +1,4 @@
-<section class="bg-gradient-to-b from-zinc-100 via-gray-100 to-zinc-200 px-4 xl:px-0 py-12 md:py-24">
+<section class="bg-secondary px-4 xl:px-0 py-12 md:py-24">
     <div class="max-w-7xl mx-auto">
         <!-- Work Process Section -->
         <div class="">

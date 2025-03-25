@@ -17,6 +17,9 @@ module.exports = {
                 instrument: ["Instrument Sans", "sans-serif"],
                 poppins: ["Poppins", "sans-serif"],
             },
+            colors: {
+                'secondary': '#F3EEEE',
+            },
         },
     },
 };
