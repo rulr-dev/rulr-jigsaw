@@ -4,7 +4,7 @@ section: content
 title: Whats New in Laravel 12 
 date: 2025-03-17
 description: Solid improvements that make development smoother.
-cover_image: /assets/img/post-cover-image-2.png
+cover_image: /assets/img/post-cover-image-001.png
 ---
 
 # What's New in Laravel 12?

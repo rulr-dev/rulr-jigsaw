@@ -6,7 +6,7 @@
                 Save time and reduce costs with our expert development solutions. We simplify your processes so you can focus on your business while we handle the technical details.
             </p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a href="#" class="rounded-2xl bg-sky-500 px-8 md:px-12 py-6 md:py-8 text-xl font-semibold text-white shadow-xs hover:bg-sky-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
+                <a href="https://meet.brevo.com/raffi-hovhannesian-2/intro" target="_blank" class="rounded-2xl bg-sky-500 px-8 md:px-12 py-6 md:py-8 text-xl font-semibold text-white shadow-xs hover:bg-sky-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
                     Book a free consultation
                 </a>
             </div>

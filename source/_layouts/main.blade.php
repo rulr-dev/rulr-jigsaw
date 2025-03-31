@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9PHQ0XY401"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-9PHQ0XY401');
+        </script>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -44,7 +55,7 @@
                    Sounds like a fit? <br />
                    Let’s connect!
                </strong>
-               <a href="#" class="inline-block rounded-2xl bg-sky-500 px-8 md:px-12 py-6 md:py-8 text-xl font-instrument font-semibold text-white shadow-xs hover:bg-sky-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
+               <a href="https://meet.brevo.com/raffi-hovhannesian-2/intro" target="_blank" class="inline-block rounded-2xl bg-sky-500 px-8 md:px-12 py-6 md:py-8 text-xl font-instrument font-semibold text-white shadow-xs hover:bg-sky-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
                    Book a free consultation
                </a>
                <div class="md:flex md:items-center md:justify-between border-y border-white/10 py-6 md:py-12 mt-4 md:mt-16">
