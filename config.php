@@ -3,16 +3,16 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'rulr.dev',
     'production' => false,
-    'siteName' => 'Blog Starter Template',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
-    'siteAuthor' => 'Author Name',
+    'siteName' => 'Rulr Dev Services',
+    'siteDescription' => 'Outsource your most time consuming task',
+    'siteAuthor' => 'Raffi Hovhannesian',
 
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
+            'author' => 'Raffi', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],

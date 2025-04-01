@@ -12,6 +12,14 @@
           gtag('config', 'G-9PHQ0XY401');
         </script>
 
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-5N3M9M6R');</script>
+        <!-- End Google Tag Manager -->
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -43,6 +51,10 @@
     </head>
 
     <body class="font-instrument flex flex-col justify-between min-h-screen bg-secondary text-gray-800 leading-normal">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5N3M9M6R"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
        @include('_nav.header')
 
         <main role="main">
@@ -55,7 +67,7 @@
                    Sounds like a fit? <br />
                    Let’s connect!
                </strong>
-               <a href="https://meet.brevo.com/raffi-hovhannesian-2/intro" target="_blank" class="inline-block rounded-2xl bg-sky-500 px-8 md:px-12 py-6 md:py-8 text-xl font-instrument font-semibold text-white shadow-xs hover:bg-sky-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
+               <a href="https://meet.brevo.com/rulr-dev/intro" target="_blank" class="inline-block rounded-2xl bg-sky-500 px-8 md:px-12 py-6 md:py-8 text-xl font-instrument font-semibold text-white shadow-xs hover:bg-sky-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
                    Book a free consultation
                </a>
                <div class="md:flex md:items-center md:justify-between border-y border-white/10 py-6 md:py-12 mt-4 md:mt-16">
