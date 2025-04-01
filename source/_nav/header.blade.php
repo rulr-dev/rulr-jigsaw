@@ -8,7 +8,7 @@
             </a>
         </div>
 
-        <div class="flex gap-8">
+        <div class="flex lg:gap-8">
 
         <div class="hidden lg:flex lg:items-center lg:justify-around grow lg:gap-x-10">
             <a href="/"

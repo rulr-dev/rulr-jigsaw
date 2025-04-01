@@ -1,12 +1,12 @@
-<section class="px-4 md:px-8 xl:px-0 py-8 sm:py-16 md:py-24 bg-secondary">
-    <div class="max-w-7xl mx-auto" x-data="testimonialSlider()">
+<section class="px-4 md:px-8 xl:px-0 py-8 md:py-12 lg:py-24 bg-secondary">
+    <div class="max-w-6xl xl:max-w-7xl mx-auto px-2" x-data="testimonialSlider()">
         <strong class="text-black block text-sm lg:text-lg">( Our Testimonials )</strong>
         <h2 class="font-poppins text-xl md:text-2xl lg:text-3xl font-bold md:mt-2">Voices of Our Clients</h2>
         <hr class="border-gray-300 my-4" />
 
         <div class="relative md:flex items-end justify-between mt-8">
             <!-- Testimonial Content -->
-            <div class="md:w-2/3 md:pr-16">
+            <div class="md:w-2/3 md:pr-8 xl:pr-16">
                 <blockquote class="text-xl md:text-2xl lg:text-5xl font-semibold italic">
                     <span class="text-gray-400">“</span>
                     <span x-text="testimonials[currentIndex].quote"></span>
@@ -24,13 +24,13 @@
             <div class="md:w-1/3 flex md:flex-col items-end space-x-4 space-y-4 relative">
                 <!-- Navigation Arrows -->
                 <div class="absolute -top-56 md:-top-24 right-0 flex space-x-2">
-                    <button @click="prev" class="p-2 bg-black text-white rounded-full hover:bg-gray-800 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                    <button @click="prev" class="inline-block min-w-10 p-2 bg-black text-white rounded-full hover:bg-gray-800 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 mx-auto">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
                         </svg>
                     </button>
-                    <button @click="next" class="p-2 border-2 border-black text-black rounded-full hover:bg-black hover:text-white transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                    <button @click="next" class="inline-block min-w-10 p-2 border-2 border-black text-black rounded-full hover:bg-black hover:text-white transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 mx-auto">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                         </svg>
                     </button>
