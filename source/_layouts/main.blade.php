@@ -31,7 +31,7 @@
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}" />
 
         <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
-
+        <link rel="canonical" href="https://rulr.dev/" />
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="favicon.svg" type="image/svg+xml">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
@@ -61,8 +61,8 @@
             @yield('body')
         </main>
 
-       <footer class="bg-gradient-to-r from-slate-900 via-neutral-950 to-slate-900 rounded-t-3xl p-6  -mt-8">
-           <div class="mx-auto max-w-6xl px-4 py-6 md:py-12 text-center md:text-start">
+       <footer class="bg-gradient-to-r from-slate-900 via-neutral-950 to-slate-900 rounded-t-3xl p-6 -mt-8">
+           <div class="mx-auto max-w-6xl px-4 py-6 md:py-12 text-center lg:text-start">
                <strong class="block font-poppins font-normal py-4 md:py-8 text-xl md:text-2xl lg:text-5xl xl:text-7xl text-secondary">
                    Sounds like a fit? <br />
                    Let’s connect!
@@ -71,7 +71,7 @@
                    Book a free consultation
                </a>
                <div class="md:flex md:items-center md:justify-between border-y border-white/10 py-6 md:py-12 mt-4 md:mt-16">
-                   <div>
+                   <div class="px-8">
                        <a href="#" class="text-2xl md:text-4xl font-bold relative text-white inline-block mb-1 md:mb-4">
                            rulr
                            <span class="absolute w-1.5 h-1.5 md:w-2 md:h-2 bg-sky-500 bottom-1 rounded-full"></span>
