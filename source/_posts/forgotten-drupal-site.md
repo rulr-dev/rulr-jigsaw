@@ -2,9 +2,10 @@
 extends: _layouts.post
 section: content
 title: How an 8-Year-Old Drupal Site Outsmarted the Hype
+article_title: How a Forgotten Drupal Site Surprised Me After 8 Years
 date: 2025-07-20
 description: A trip through dev trends, forgotten servers, and the surprise of real-world resilience.
-cover_image: /assets/img/forgotten-drupal-site.png
+cover_image: /assets/img/forgotten-drupal-site-cover.png
 ---
 
 ## As If PHP Being 'Dead' Wasn't Enough…

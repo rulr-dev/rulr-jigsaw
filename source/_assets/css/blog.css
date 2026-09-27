@@ -13,6 +13,12 @@
     @apply font-poppins font-medium text-3xl mt-7 mb-5 text-neutral-950;
 }
 
+/* Section headings in the post body sit closer to their own text than to the section before.
+   Important, since the body wrapper's space-y utility would otherwise win. */
+.blog-article div h2 {
+    @apply !mt-14 !mb-4;
+}
+
 .blog-article h3 {
     @apply font-poppins text-2xl text-neutral-950 mt-4 mb-2;
 }

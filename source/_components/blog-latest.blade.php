@@ -6,23 +6,20 @@
 
         <div class="space-y-6">
             @foreach ($posts->where('featured', false)->take(6) as $post)
-            <div class="border-b pb-4 group cursor-pointer">
-                <div class="lg:flex ap-2 md:gap-4 lg:gap-12 justify-between max-w-full">
-                    <div class="flex-1 flex flex-col md:flex-row  md:gap-4 lg:gap-8 xl:gap-12 ">
-                        <span class="block text-gray-400 text-sm lg:text-lg md:mb-0 md:min-w-44">{{ $post->getDate()->format('F j, Y') }}</span>
+            <a href="{{ $post->getUrl() }}" title="Read {{ $post->title }}" class="group flex items-center gap-4 md:gap-8 lg:gap-12 border-b pb-6">
+                <span class="hidden md:block shrink-0 w-40 lg:w-44 text-gray-400 text-sm lg:text-lg">{{ $post->getDate()->format('F j, Y') }}</span>
 
-                        <a href="{{ $post->getUrl() }}" title="Read {{ $post->title }}" class="inline-block  text-gray-900 font-extrabold">
-                            <p class="font-semibold text-lg md:text-xl lg:text-2xl lg:max-w-lg">{{ $post->title }}</p>
-                        </a>
-                    </div>
-                    <div class="mt-2 lg:mt-0 max-h-80 md:max-h-none sm:w-48 md:h-0 overflow-hidden transition-all duration-500 ease-in-out md:group-hover:h-32 md:ml-4">
-                        @if ($post->cover_image)
-                            <img src="{{ $post->cover_image }}" alt="{{ $post->title }}" class="w-full h-full object-cover rounded-md" />
-                        @endif
-                    </div>
+                <div class="shrink-0 w-28 sm:w-40 lg:w-56 aspect-[16/9] overflow-hidden rounded-md bg-gray-100">
+                    @if ($post->cover_image)
+                        <img src="{{ $post->cover_image }}" alt="{{ $post->title }}" class="w-full h-full object-cover object-left transition-transform duration-500 ease-in-out group-hover:scale-105" />
+                    @endif
                 </div>
 
-            </div>
+                <div class="min-w-0">
+                    <span class="block md:hidden text-gray-400 text-sm mb-1">{{ $post->getDate()->format('F j, Y') }}</span>
+                    <p class="font-semibold text-gray-900 text-lg md:text-xl lg:text-2xl group-hover:underline underline-offset-4 decoration-2">{{ $post->title }}</p>
+                </div>
+            </a>
             @endforeach
         </div>
     </div>

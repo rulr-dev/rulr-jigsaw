@@ -1,4 +1,4 @@
-<article class="mb-4 group">
+<article class="mb-4">
     <div class="overflow-hidden rounded-lg">
         <a href="{{ $post->getUrl() }}"
            title="Read more - {{ $post->title }}"

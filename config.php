@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'rulr.dev',
+    'baseUrl' => 'http://rulrblog.test',
     'production' => false,
     'siteName' => 'Rulr Dev Services',
     'siteDescription' => 'Outsource your most time consuming task',

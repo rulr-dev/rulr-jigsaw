@@ -2,12 +2,11 @@
 extends: _layouts.post
 section: content
 title: Whats New in Laravel 12 
+article_title: Whats New in Laravel 12
 date: 2025-03-17
 description: Solid improvements that make development smoother.
-cover_image: /assets/img/post-cover-image-001.png
+cover_image: /assets/img/whats-new-in-laravel-12.png
 ---
-
-# What's New in Laravel 12?
 
 Laravel 12 is here, and while it doesn't completely flip the table on how we build apps, it does bring some solid improvements that make development smoother, cleaner, and more enjoyable. Whether you're just starting with Laravel or you've been in the game for a while, you'll find something here that makes your life easier.
 

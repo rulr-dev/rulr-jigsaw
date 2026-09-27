@@ -7,7 +7,10 @@
 @section('body')
     <section class="px-4 lg:px-8 xl:px-4 py-16 md:py-24 mt-4 md:mt-12">
         <div class="blog-article max-w-4xl mx-auto">
-            <h1 class="font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-semibold tracking-tight text-balance text-gray-900">Blog Details</h1>
+            <h1 class="font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-semibold tracking-tight text-gray-900">
+                {{ $page->article_title }}
+            </h1>
+
             <hr class="border-b my-6">
 {{--            <div class="lg:grid lg:grid-cols-3 lg:space-x-6 xl:space-x-12 items-start ">--}}
 {{--                <div class="col-span-2">--}}
@@ -51,6 +54,7 @@
                             @endif
                         </div>
                     </nav>
+
 {{--                </div>--}}
 {{--                <div class="rounded-lg bg-white/30 border border-zinc-200 p-4 xl:p-6">--}}
 {{--                    <h3 class="font-poppins font-medium text-lg md:text-xl  xl:text-2xl mb-3 xl:mb-7">Recent blogs</h3>--}}

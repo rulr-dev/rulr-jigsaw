@@ -1,3 +1,4 @@
+@props(['has_nav' => true])
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -55,14 +56,16 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5N3M9M6R"
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-       @include('_nav.header')
+        @if($has_nav)
+            @include('_nav.header')
+        @endif
 
         <main role="main">
             @yield('body')
         </main>
 
        <footer class="bg-gradient-to-r from-slate-900 via-neutral-950 to-slate-900 rounded-t-3xl p-6 -mt-8">
-           <div class="mx-auto max-w-6xl px-4 py-6 md:py-12 text-center lg:text-start">
+           <div class="mx-auto max-w-7xl px-4 py-6 md:py-12 text-center lg:text-start">
                <strong class="block font-poppins font-normal py-4 md:py-8 text-xl md:text-2xl lg:text-5xl xl:text-7xl text-secondary">
                    Sounds like a fit? <br />
                    Let’s connect!
@@ -131,5 +134,24 @@
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')
+
+        <script>
+          (function () {
+            try {
+              var payload = {
+                brand_id: 01kfv3hdn4k3hqd7tj72t2kz0s,
+                landing_url: window.location.href,
+                referrer: document.referrer || null,
+                user_agent: navigator.userAgent,
+                occurred_at: Date.now(),
+              };
+
+              var blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+              navigator.sendBeacon('https://kognize.me/api/ai-traffic/collect', blob);
+            } catch (e) {
+              // Intentionally ignore
+            }
+          })();
+        </script>
     </body>
 </html>
