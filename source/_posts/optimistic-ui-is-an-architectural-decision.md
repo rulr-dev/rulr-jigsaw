@@ -1,8 +1,8 @@
 ---
 extends: _layouts.post
 section: content
-title: Optimistic UI is a concurrency problem wearing a UX costume
-article_title: Optimistic UI is a concurrency problem wearing a UX costume
+title: Optimistic UI is an architectural decision, not a minor UX tweak
+article_title: Optimistic UI is an architectural decision, not a minor UX tweak
 date: 2026-09-27
 description: The moment the screen stops waiting for the server, your app stops doing one thing at a time. Five places where "instant" cracked while building Rulrmail, and how we fixed them.
 cover_image: /assets/img/optimistic-ui/optimistic-ui-cover.png

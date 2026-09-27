@@ -18,8 +18,7 @@
                         <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="w-full object-cover max-h-96 rounded-lg">
                     @endif
 
-                    <h2 class="leading-none font-poppins text-xl lg:text-2xl xl:text-4xl mt-6">{{ $page->title }}</h2>
-                    <span class="block text-neutral-600 text-base md:text-lg font-medium my-2">
+                    <span class="block text-neutral-600 text-base md:text-lg font-medium mt-6 mb-2">
                         {{ $page->author }}  •  {{ date('F j, Y', $page->date) }}
                     </span>
 
