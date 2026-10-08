@@ -12,7 +12,7 @@ We've all heard the usual complaint, that AI just remixes open-source code it wa
 
 You open the chat and type "Help me build a note-taking app". AI suggests features, then a name, a color palette, a pricing model and a launch strategy. You pick the ones that you like and feel like the architect.
 
-Nothing is wrong with that, until you zoom out and realize you didn't design anything. You just chose from a menu someone else wrote. In some cases, your original goal has quietly been replaced by something you might or might not need.
+Nothing is wrong with that, until you zoom out and realize you didn't design anything. **You just chose from a menu someone else wrote.** In some cases, your original goal has quietly been replaced by something you might or might not need.
 
 <!-- more -->
 
@@ -26,31 +26,25 @@ Researchers have already measured what happens next, at least inside the machine
 
 The "tails" are the rare stuff: the unusual, the weird, the one-in-a-million. In other words, exactly the things that drive progress.
 
-The answer isn't wrong. In many ways, it _is_ the truth. That's the problem.
+The answer isn't wrong. In many ways, **it _is_ the truth. That's the problem**.
 
-It is an averaged truth. It is correct. It is polished. It is optimized for agreeableness. It lacks the dynamo of real life. It lacks the mistake that turned into a discovery that no other entity in the world has discovered before.
+It is an averaged truth. It is correct. It is polished. It is optimized for agreeableness. But, it lacks the dynamo of real life, it lacks **the mistake that turned into a discovery** that no other entity in the world has discovered before.
 
 Picture a car race where every driver is handed the exact same car: same engine, same tires, same aerodynamics, same setup. It's the best car anyone knows how to build.
-
-The race is fair, and it's close. It might even be exciting.
-
-But nobody will ever invent a better car in that race. Nobody will try a strange wing that fails nine times and wins the tenth. Every breakthrough in racing history came from a team that showed up with something the others thought was wrong.
 
 That's the world we're building when everyone asks the same oracle. Everyone gets the best car, and nobody builds the next one.
 
 We've seen this before, long before the machines.
 
-For centuries, much of Europe ran on a single source of truth: a sacred text, and an institution that interpreted it.[^harari] You didn't need to work things out for yourself. You asked, and you received the answer, the same answer everyone else received. This isn't a judgment on faith, which has given people meaning, community and a moral compass for thousands of years. It's about what happens to _thinking_ when everyone consults the same source. Questions start to look like heresy, and variation starts to look like error. Interpretation becomes stable, coherent and very, very slow.[^numbers] The tails disappear.
+For centuries, much of Europe ran on a single source of truth: a sacred text, and an institution that interpreted it.[^harari] You didn't need to work things out for yourself. You asked, and you received the answer, the same answer everyone else received. This isn't a judgment on faith, which has given people meaning, community and a moral compass for thousands of years. It's about what happens to thinking when everyone consults the same source. Questions start to look like heresy, and variation starts to look like error. Interpretation becomes stable, coherent and very, very slow.[^numbers] The tails disappear.
 
-The sacred text was never the problem. The monopoly on interpreting it was.
-
-Today, the text is the world's data, and the interpreter is AI.
+The sacred text was never the problem (internet data). The monopoly on interpreting it was (AI version of truth).
 
 Then something broke the monopoly. The printing press put the text in more hands than any institution could supervise. People read it for themselves, disagreed and argued, and some of them were burned for it. The tails came back, and with them came the Reformation, the scientific revolution and the messy, noisy, self-correcting world we live in today.[^eisenstein]
 
 ## The Difference
 
-This time, there's a twist.
+This time, in the age of AI, there's a twist.
 
 Nobody forced this oracle on us. No institution demands our obedience, and there's no penalty for heresy. You can close the tab whenever you like.
 
@@ -58,7 +52,7 @@ We chose it, because it's convenient.
 
 And convenience is a far more effective authority than force. Nobody rebels against something that saves them time. There's nothing to smuggle when nothing is forbidden. There's just one very helpful answer. Each of us gets a better answer, and together we all get the same one.[^doshi]
 
-The printing press broke a monopoly that was imposed on people. But nobody has invented a printing press for a monopoly we signed up for. Not yet.
+The printing press broke a monopoly that was imposed on people. But nobody has invented a printing press for a new monopoly we all signed up for. Not yet.
 
 ## The Way Out
 
@@ -66,15 +60,20 @@ The way out isn't to stop using AI. Use it, build with it and let it save you ti
 
 Just don't let it be the only voice in the room.
 
-**Seek the second opinion.** When the AI gives you the answer, ask a human. Better still, ask someone who disagrees with you.
+**Seek the second opinion:**<br>
+When the AI gives you the answer, ask a human. Better still, ask someone who disagrees with you.
 
-**Find the stranger.** Show your idea to someone outside your field, your feed and your industry. They haven't been trained on the same data you have.
+**Find the stranger:**<br>
+Show your idea to someone outside your field, your feed and your industry. They haven't been trained on the same data you have.
 
-**Keep a heretic around.** Every team needs the person who says _"that's the best practice, so let's try the opposite."_ They'll be wrong most of the time. The time they're right is the discovery.
+**Keep a heretic around:**<br>
+Every team needs the person who says _"that's the best practice, so let's try the opposite."_ **They'll be wrong most of the time. The time they're right is the discovery.**
 
-**Protect your original goal.** Before you open the chat, write down what you actually wanted to build. When you're done, compare. If the AI's version won, make sure it won on merit and not on convenience.
+**Protect your original goal:**<br>
+Before you open the chat, write down what you actually wanted to build. When you're done, compare. **If the AI's version won, make sure it won on merit and not on convenience.**
 
-**Take advice, but don't outsource your taste.** AI can tell you what's correct. Only you can decide what's _yours_.
+**Take advice, but don't outsource your taste:**<br>
+AI can tell you what's correct. Only you can decide what's _yours_.
 
 Model collapse isn't new. Humanity has lived through it before and found its way out, through stubborn, inconvenient people who refused to take the same answer as everyone else.
 
