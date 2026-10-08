@@ -30,9 +30,13 @@ The answer isn't wrong. In many ways, **it _is_ the truth. That's the problem**.
 
 It is an averaged truth. It is correct. It is polished. It is optimized for agreeableness. But, it lacks the dynamo of real life, it lacks **the mistake that turned into a discovery** that no other entity in the world has discovered before.
 
-Picture a car race where every driver is handed the exact same car: same engine, same tires, same aerodynamics, same setup. It's the best car anyone knows how to build.
-
-That's the world we're building when everyone asks the same oracle. Everyone gets the best car, and nobody builds the next one.
+<figure class="my-8">
+    <img src="/assets/img/model-collapse/model-collapse-comic.png" alt="A three-panel comic. The best car: three identical race cars whose drivers say 'Same engine', 'Same tires', 'Same everything'. The heretic: an engineer holds up a sketch of a car with a tail while the team boss shouts 'A tail?! That's anti-aerodynamic!'. The tail: a car with a rear wing; airflow hits the wing ('a little less aerodynamics') while green arrows press the car into the track ('a lot more grip'), under a lap-time board where the tail car beats the best car." class="w-full rounded-lg">
+    <figcaption class="mt-3 text-center">
+        <span class="block text-gray-900 font-semibold">Everyone got the best car. Nobody built the next one.</span>
+        <span class="block text-gray-500 text-sm md:text-base">(The textbook was right. About the wrong problem.)</span>
+    </figcaption>
+</figure>
 
 We've seen this before, long before the machines.
 
