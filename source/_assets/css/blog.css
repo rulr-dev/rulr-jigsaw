@@ -144,3 +144,22 @@
         @apply text-sm;
     }
 }
+
+/* Footnotes (Markdown Extra [^id] syntax) */
+.blog-article sup a {
+    @apply text-xs align-super;
+}
+
+.blog-article .footnotes {
+    @apply mt-12;
+}
+
+.blog-article .footnotes li,
+.blog-article .footnotes p,
+.blog-article .footnotes a {
+    @apply text-sm;
+}
+
+.blog-article .footnotes a {
+    @apply break-words;
+}
